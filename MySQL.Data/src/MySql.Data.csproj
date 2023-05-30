@@ -1,4 +1,4 @@
-﻿<Project>
+<Project>
   <Import Sdk="Microsoft.NET.Sdk" Project="Sdk.props" />
 
   <PropertyGroup>
@@ -75,7 +75,7 @@
     <Reference Include="ZstdNet">
       <HintPath>..\..\Dependencies\ZstdNet\NetFramework\ZstdNet.dll</HintPath>
     </Reference>
-    <PackageReference Include="BouncyCastle" Version="1.8.5" />
+    <PackageReference Include="BouncyCastle" Version="1.8.9" />
     <EmbeddedResource Include="Resources.resx;ResourcesX.resx;Properties\ReservedWords.txt" Exclude="bin\**;obj\**;**\*.xproj;packages\**;@(EmbeddedResource)" />
     <EmbeddedResource Include="..\..\Dependencies\ZstdNet\NetFramework\libzstd.dll">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
